@@ -9,6 +9,7 @@ sections:
   label: Website
   create: all
   match: "**/*.html"
+  exclude: "**/_include/"
   new_doc_ext: ''
 upload_dir: uploads
 public_path: "/uploads"
