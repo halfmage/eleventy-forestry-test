@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*.html"
   exclude: "**/_include/"
-  new_doc_ext: ''
+  new_doc_ext: app
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
