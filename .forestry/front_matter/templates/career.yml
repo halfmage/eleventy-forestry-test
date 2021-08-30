@@ -1,4 +1,18 @@
 ---
 label: Career
 hide_body: true
-fields: []
+fields:
+- name: job_title
+  type: text
+  config:
+    required: true
+  label: Job title
+- name: job_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Job Description
